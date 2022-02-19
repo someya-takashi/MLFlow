@@ -1,0 +1,6 @@
+FROM python:3.8
+
+CMD mkdir /tmp/mlruns
+
+RUN pip install --upgrade pip && \
+    pip install mlflow
